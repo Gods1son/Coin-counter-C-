@@ -1,0 +1,14 @@
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\bin\Debug\Coin counter.exe.config
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\bin\Debug\Coin counter.exe
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\bin\Debug\Coin counter.pdb
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin counter.csprojResolveAssemblyReference.cache
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\MainWindow.g.cs
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\App.g.cs
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin counter_MarkupCompile.cache
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin counter_MarkupCompile.lref
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\MainWindow.baml
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin counter.g.resources
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin_counter.Properties.Resources.resources
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin counter.csproj.GenerateResource.Cache
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin counter.exe
+c:\users\gods1\documents\visual studio 2015\Projects\Coin counter\Coin counter\obj\Debug\Coin counter.pdb

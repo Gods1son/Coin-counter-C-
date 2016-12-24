@@ -1,0 +1,34 @@
+﻿<Window x:Class="Coin_counter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coin_counter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Name="lblHeader" Content="Coin Counter Application" FontSize="30" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <Label Name="lblPenny" Content="Enter Pennies:" Grid.Row="1" FontSize="24" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <Label Name="lblNickel" Content="Enter Nickels:" FontSize="24" Grid.Row="2" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <Label Name="lblDime" Content="Enter Dimes:" FontSize="24" Grid.Row="3" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <Label Name="lblQuarter" Content="Enter Quarters:" FontSize="24" Grid.Row="4" FontWeight="Bold" VerticalContentAlignment="Center"/>
+        <TextBox Name="tbPenny" Grid.Column="1" FontSize="24" TextAlignment="Right" Grid.Row="1" Margin="13" Text="{Binding Penny,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Name="tbNickel" Grid.Column="1" Grid.Row="2" FontSize="24" TextAlignment="Right" Margin="13" Text="{Binding Nickel,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Name="tbDime" Grid.Column="1" Grid.Row="3" FontSize="24" TextAlignment="Right" Margin="13" Text="{Binding Dime,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Name="tbQuarter" Grid.Column="1" Grid.Row="4" FontSize="24" TextAlignment="Right" Margin="13" Text="{Binding Quarter,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+        <Label Name="lblResult" Content="{Binding Result,UpdateSourceTrigger=PropertyChanged}" Grid.Row="5" Foreground="Red" HorizontalContentAlignment="Center" FontSize="24" FontWeight="Bold" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
